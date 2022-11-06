@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+
+h1{
+  font-family: roboto;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  text-transform: uppercase;
+  background-color: black;
+  border: 3px inset white;
+  border-width: 4px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  margin: 50px;
+  position: relative;
+
+}
+body{
+  background-color: black;
+  
+}
+a{
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+}
+.spoiler{
+  color:rgb(255, 255, 255);
+  background-color: black;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  
+}
+summary{
+    font-family: roboto;
+    text-transform: uppercase;
+    font-size: 39px;
+    font-weight: bold;
+    margin: 100px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-style: hidden;
+    text-align: center;
+}
+
+details{
+  font-size: 40px;
+  margin: 100px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-variant: small-caps;
+  cursor: pointer;
+  border: 1px inset white;
+  background: rgb(0, 0, 0);
+}
+p{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+a{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+html {
+  height: 100%;
+}
+  
+body {
+  background: #000000;
+}
+  
+div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  font-family: roboto;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 1000px;
+  height: 40px;
+  color:rgb(65, 60, 60);
+  font-size: medium;
+  font-weight: bold;
+  border-style: none;
+  background: none; /* Removes background "border" if set to none */
+  cursor: pointer;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+  text-align: center;
+  transition: ease-out 1s;
+  margin: 20px;
+  border: 1px double white;
+  background: rgb(216, 206, 206);
+  border-bottom-left-radius: 40px; /*Using px because % looks shit and overwides it*/
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.button:hover {
+  box-shadow: inset 1000px 0 0 0 rgb(0, 0, 0);
+}
